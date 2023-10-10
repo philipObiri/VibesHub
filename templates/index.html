@@ -9,13 +9,15 @@
   <title>Vibes Hub | Video Conference</title>
   <link rel="stylesheet" href="{% static 'css/style.css' %}">
   <body>
-    <div class="intro">
+    <main>
+      <div class="intro">
         <h1>Welcome to Vibes Hub!</h1>
         <h2>For all your professional and personal needs!</h2>
         <!-- create a signup and signin button-->
         <a href="{% url 'login' %}" class="button">Sign In</a>
         <a href="{% url 'register' %}" class="button">Sign Up</a>
     </div>
+    </main>
   </body>
 </head>
 </html>
