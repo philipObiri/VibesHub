@@ -1,0 +1,3 @@
+AppID = 34007329
+
+ServerSecret= e36aca6c794b29916fbc55fd31a8a8e1
