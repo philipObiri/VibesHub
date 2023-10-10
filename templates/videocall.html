@@ -34,7 +34,9 @@ window.onload = function () {
     const userID = Math.floor(Math.random() * 10000) + "";
     const userName = "{{ name }}";
     const appID = 34007329;
-    const serverSecret = "e36aca6c794b29916fbc55fd31a8a8e1";
+    // const appID = {{ appID }};
+    // const serverSecret = "e36aca6c794b29916fbc55fd31a8a8e1";
+    const serverSecret = "{{ server_secret}}";
     const kitToken = ZegoUIKitPrebuilt.generateKitTokenForTest(appID, serverSecret, roomID, userID, userName);
 
     
