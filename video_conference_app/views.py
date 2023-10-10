@@ -41,7 +41,13 @@ def dashboard(request):
 
 @login_required
 def videocall(request):
-    return render(request, 'videocall.html', {'name': request.user.first_name + " " + request.user.last_name})
+    appID = settings.CLIENT_ID
+    server_secret = settings.SERVER_SECRET
+    return render(request, 'videocall.html', {
+        'name': request.user.first_name + " " + request.user.last_name,
+        'appID':appID,
+        'server_secret':server_secret
+        })
 
 @login_required
 def logout_view(request):
