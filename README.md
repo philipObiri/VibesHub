@@ -1,9 +1,9 @@
 <!-- [![Built with Cookiecutter Django](https://img.shields.io/badge/built%20with-Cookiecutter%20Django-ff69b4.svg?logo=cookiecutter)](https://github.com/cookiecutter/cookiecutter-django/)
 [![Black code style](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/ambv/black) -->
 
-<img src="./demo/demo1.png" width=900>
-<img src="./demo/demo2.png" width=900>
-<img src="./demo/demo3.png" width=900>
+<img src="./demo/vibes1.png" width=900>
+<img src="./demo/vibes2.png" width=900>
+<img src="./demo/vibes3.png" width=900>
 
 ## About VibesHub
 
