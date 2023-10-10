@@ -8,6 +8,6 @@ urlpatterns = [
     # path('meeting/',views.videocall, name='meeting'),
     # path('logout/',views.logout_view, name='logout'),
     # path('join/',views.join_room, name='join_room'),
-    # path('',views.index, name='index'),
+    path('',views.index, name='index'),
 
 ]
